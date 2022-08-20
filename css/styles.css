@@ -162,14 +162,15 @@ img {
   margin-bottom: 10px;
 }
 
-.features-item {
+.features-list {
   display: flex;
-  justify-content: space-between;
 }
-.features-item > li {
+.features-list > li {
   width: 270px;
 }
-
+.features-list li:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
 .features-desc {
   line-height: 1.71;
 }
